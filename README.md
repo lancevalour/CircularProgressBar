@@ -1,11 +1,26 @@
 # CircularProgressBar
 Yet another Circular Progres Bar.
+
 ## Installation
-
-
+```
+compile 'com.zyceeit.android.circularprogressbar:circularprogressbar:0.1.0'
+```
 ## Usage
+```xml
+  <com.zyceeit.android.circularprogressbar.CircularProgressBar
+      android:id="@+id/circularProgressBar"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:layout_centerInParent="true"
+      app:progressBarColor="#f44336"
+      app:progressBarThickness="10dp" />
+```
 
-TODO: Write usage instructions
+```java
+  CircularProgressBar circularProgressBar = (CircularProgressBar) findViewById(R.id.circularProgressBar);
+  circularProgressBar.setProgressWithAnimation(100);
+```
+
 
 ## Contributing
 
