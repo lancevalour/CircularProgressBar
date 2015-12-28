@@ -3,7 +3,7 @@ Yet another Circular Progres Bar.
 
 ## Installation
 ```
-compile 'com.zyceeit.android.circularprogressbar:circularprogressbar:0.1.0'
+compile 'com.zyceeit.android.circularprogressbar:circularprogressbar:0.2.0'
 ```
 ## Usage
 ```xml
